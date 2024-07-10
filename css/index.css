@@ -122,9 +122,10 @@ main {
     font-weight: 800;
 }
 
-.banner p{
+.banner p {
     margin: 18px;
     font-size: 20px;
+    color: white;
 }
 
 .banner button {
