@@ -1,9 +1,28 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+.primary {
+    background-color: #F7418F;
+}
+
+.secondary {
+    background-color: #FC819E;
+}
+
+.tertiary {
+    background-color: #FEC7B4;
+}
+
 body {
     font-family: "Rubik", sans-serif;
+}
+
+button {
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
