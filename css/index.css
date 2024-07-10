@@ -56,7 +56,7 @@ main {
         top: 8vh;
         right: 0;
         width: 50vw;
-        height: 92vh;
+        height: 95vh;
         background-color: #F7418F;
         flex-direction: column;
         align-items: center;
@@ -105,21 +105,33 @@ main {
 
 .banner {
     display: flex;
-    height: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .banner h2 {
-    
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 0px #FC819E;
+    font-weight: 800;
 }
 
 .banner p{
-    margin: 15px;
+    margin: 18px;
+    font-size: 20px;
 }
 
+.banner button {
+    padding: 20px;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
