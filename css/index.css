@@ -73,6 +73,10 @@ main {
     .mobile-menu {
         display: block;
     }
+
+    .container {
+        flex-direction: column;
+    }
 }
 
 .nav-list.active {
@@ -105,13 +109,12 @@ main {
 
 .banner {
     display: flex;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     background-image: url('../img/banner.png');
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -135,4 +138,62 @@ main {
     font-weight: bolder;
     color: white;
     cursor: pointer;
+}
+
+section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h2 {
+    margin-top: 50px;
+}
+
+section h3 {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.card p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card button {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+
+}
+
+.card-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
 }
