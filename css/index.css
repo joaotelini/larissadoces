@@ -46,6 +46,15 @@ main {
     margin: 8px;
 }
 
+@media (max-width: 1400px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        align-items: center;
+    }
+}
+
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
@@ -72,10 +81,6 @@ main {
 
     .mobile-menu {
         display: block;
-    }
-
-    .container {
-        flex-direction: column;
     }
 }
 
@@ -114,7 +119,7 @@ main {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-image: url('../img/banner.png');
+    /* background-image: url('../img/banner.png'); */
     background-size: cover;
 }
 
