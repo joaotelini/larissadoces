@@ -23,6 +23,11 @@ li {
 
 .navbar-brand {
     color: white;
+    font-size: 25px;
+}
+
+.nav-link {
+    font-size: 17px;
 }
 
 .navbar-brand:hover {
@@ -35,6 +40,18 @@ li {
 
 .text-white {
     color: white;
+}
+
+.offcanvas-body {
+    background-color: #F7418F;
+}
+
+.offcanvas-header {
+    background-color: #F7418F;
+}
+
+.offcanvas-title {
+    font-size: 25px;
 }
 
 .banner {
