@@ -8,112 +8,38 @@ a:hover {
     opacity: 0.7;
 }
 
-.logo {
-    font-size: 25px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+header {
     background-color: #F7418F;
-    height: 10vh;
 }
 
-main {
-    height: 90vh;
-}
-
-.nav-list {
+li {
     list-style-type: none;
-    display: flex;
-    font-size: 15px;
 }
 
-.nav-list li {
-    margin-left: 30px;
+.navbar {
+    background-color: #F7418F;
+    color: white;
 }
 
-.mobile-menu {
-    display: none;
-    cursor: pointer;
+.navbar-brand {
+    color: white;
 }
 
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background-color: white;
-    margin: 8px;
+.navbar-brand:hover {
+    color: #fff;
 }
 
-@media (min-width: 1300px) {
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+.container-fluid {
+    height: 70px;
 }
 
-@media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 95vh;
-        background-color: #F7418F;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-
-    .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-    }
-
-    .mobile-menu {
-        display: block;
-    }
-}
-
-.nav-list.active {
-    transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-    opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+.text-white {
+    color: white;
 }
 
 .banner {
     display: flex;
-    height: 100%;
+    height: 1000px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
