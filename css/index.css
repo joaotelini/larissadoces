@@ -140,9 +140,8 @@ section h3 {
 }
 
 .card-image {
-    width: 300px;
-    height: 300px;
-    border-radius: 200px 200px 200px 200px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
     -webkit-border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
 }
