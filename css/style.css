@@ -5,15 +5,19 @@
 }
 
 .primary {
-    background-color: #F7418F;
+    background-color: #5BBCFF;
 }
 
 .secondary {
-    background-color: #FC819E;
+    background-color: #FFFAB7;
 }
 
 .tertiary {
-    background-color: #FEC7B4;
+    background-color: #FFD1E3;
+}
+
+.quartiary {
+    background-color: #7EA1FF;
 }
 
 body {
