@@ -5,19 +5,19 @@
 }
 
 .primary {
-    background-color: #5BBCFF;
+    background-color: #088395;
 }
 
 .secondary {
-    background-color: #FFFAB7;
+    background-color: #088395;
 }
 
 .tertiary {
-    background-color: #FFD1E3;
+    background-color: #37B7C3;
 }
 
 .quartiary {
-    background-color: #7EA1FF;
+    background-color: #EBF4F6;
 }
 
 body {
@@ -29,4 +29,8 @@ button {
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+
+.text-white {
+    color: #EBF4F6;
 }
